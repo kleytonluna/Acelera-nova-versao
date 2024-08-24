@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação de Exames</title>
+    <link rel="shortcut icon" href="img/logo192.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style6.css">
+   
+</head>
+<body>
+   
+    <h1>Marcação de Exames</h1>
+
+    <form action="#">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="DIGITE SEU NOME" required>
+
+        <label for="data">Data do exame:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="hora">Horário do exame:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="especialidade">Tipo de exame:</label>
+        <select id="especialidade" name="especialidade" required>
+            <option value="Selecionar">Selecionar</option>
+            <option value="medico">HEMOGRAMA</option>
+            <option value="medico">COLETEROL</option>
+            <option value="medico"> UREIA E CREATININA</option>
+            <option value="medico">PAPANICOLAU</option>
+            <option value="medico">URINA</option>
+            <option value="medico">FEZES</option>
+            <option value="medico">GLICEMIA</option>
+            <option value="medico"> THS E T4 LIVRE</option>
+        </select>
+        
+        <button type="submit">Marcar Exame</button>
+    </form>
+    <footer>
+        <div class="logo-rodape">
+        <h1 class="agencia">Acelera Saúde</h1>
+        <p style="color: white; font-size: 20px;">Um site feito com HTML e CSS Puro</p>
+    </div>
+    
+    </footer>
+   <a  class="whats"href="https://api.whatsapp.com/send/?phone=5581&text=Ol%C3%A1+cliente%2C+tudo+bem%3F&type=phone_number&app_absent=0" target="_blank"><img  style="width: 100px;" src="img/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp"></a> 
+    
+</body>
+</html>
